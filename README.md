@@ -1,2 +1,1 @@
-# dio-desafio-aulas
-DIO BOOTCAMP (Spread Fullstack Developer)
+# Repositório das aulas do bootcamp DIO (SPREAD FULLSTACK)
