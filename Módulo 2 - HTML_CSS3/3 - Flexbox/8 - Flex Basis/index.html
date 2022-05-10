@@ -7,11 +7,55 @@
     <title>Flex Basis</title>
 
     <style>
+    .flex-container {
+        max-width: 300px;
+        border: 1px solid black;
+        display: flex;
+    }        
 
-        
+    .items {
+        background: coral;
+        color: white;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .basis-auto {
+        flex-basis: auto;
+    }
+
+    .flex-grow1 {
+        flex-grow: 1;
+    }
+
+    .flex-grow2{
+        flex-grow: 2;
+
+    }
+    
+    .basis0 {
+        flex-basis: 0;
+    }
+
     </style>
 </head>
 <body>
-    
+
+    <h3>flex-basis: auto</h3>
+    <div class="flex-container">
+        <div class="items basis-auto flex-grow1">A</div>
+        <div class="items basis-auto flex-grow1">BBB</div>
+        <div class="items basis-auto flex-grow1">C</div>
+        <div class="items basis-auto flex-grow2">DEF</div>
+    </div>
+
+    <h3>flex-basis: 0</h3>
+    <div class="flex-container">
+        <div class="items basis0 flex-grow1">A</div>
+        <div class="items basis0 flex-grow1">BBB</div>
+        <div class="items basis0 flex-grow1">C</div>
+        <div class="items basis0 flex-grow1">DEF</div>
+    </div>
+
 </body>
 </html>

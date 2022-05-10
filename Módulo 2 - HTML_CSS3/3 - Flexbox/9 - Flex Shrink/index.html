@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Shrink</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+        }
+
+        .item {
+            background: orange;
+            font-size: 24px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .shrik-1 {
+            flex-shrink: 1;
+        }
+
+        .flex-grow-1 {
+            flex-grow: 1;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item flex-grow-1 flex-shrink">A</div>
+        <div class="item flex-grow-1 flex-shrink">B</div>
+        <div class="item flex-grow-1 flex-shrink">C</div>
+        <div class="item flex-grow-1 flex-shrink">D</div>
+        <div class="item flex-grow-1 flex-shrink">E</div>
+        <div class="item flex-grow-1 flex-shrink">F</div>
+    </div>
+
+
+</body>
+</html>

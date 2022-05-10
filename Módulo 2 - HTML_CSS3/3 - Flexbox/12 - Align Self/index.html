@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+            margin-bottom: 20px;
+        }
+
+        .align-container {
+            align-items: center;
+        }
+
+        .item {
+            background: purple;
+            font-size: 24px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .center {
+            align-self: center;
+        }
+
+        .start {
+            align-self: flex-start;
+        }
+
+        .end {
+            align-self: flex-end;
+        }
+
+        .baseline {
+            align-self: baseline;
+        }
+
+        .stretch {
+            align-self: stretch;
+        }
+
+        .auto {
+            align-self: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="flex-container align-container">
+        <div class="item auto">AAA234</div>
+        <div class="item auto">Lorrem ispum is therefore always free from repetition</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Item 4</div>
+    </div>
+
+    <div class="flex-container">
+        <div class="item end">AAA234</div>
+        <div class="item auto">Lorremetition</div>
+        <div class="item start">123</div>
+        <div class="item baseline">Item 4</div>
+    </div>
+
+</body>
+</html>

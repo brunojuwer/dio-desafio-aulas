@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            border: 1px solid black;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+
+        .item {
+            flex: 1;
+            background: purple;
+            font-size: 24px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .order1 {
+            order: 1;
+        }
+
+        .order2 {
+            order: 2;
+
+        }
+
+        .order3{
+            order: 3;
+
+        }
+
+        .order4 {
+            order: 4;
+
+        }
+    
+    </style>
+
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item order2">1</div>
+        <div class="item order1">2</div>
+        <div class="item order4">3</div>
+        <div class="item order3">4</div>
+    </div>
+
+
+</body>
+</html>
