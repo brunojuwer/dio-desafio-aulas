@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Content</title>
+
+    <style>
+
+        .container {
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 3px solid black;
+        }
+
+        .item {
+            background: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .scretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Align Content</h1>
+
+    <h3>stretch</h3>
+    <div class="container stretch">
+        <div class="item">dfg dfgdfkkkkklkkkk fgdadsdaf</div>
+        <div class="item">ASDasd asdkasdkjasd as </div>
+        <div class="item">Adasdasd asd asd asd asdadsasd</div>
+        <div class="item">asdasdasdasdasdas sada d a as dasda adsasdasd asd asdasdasda</div>
+        <div class="item">asdasdas dasdadsd</div>
+        <div class="item">asdasd sadasdasdd</div>
+        <div class="item">asdasdasd  dasdas</div>
+    </div>
+
+    <h3>center</h3> 
+    <div class="container center">
+        <div class="item">dfg dfgdfkkkkklkkkk fgdadsdaf</div>
+        <div class="item">ASDasd asdkasdkjasd as </div>
+        <div class="item">Adasdasd asd asd asd asdadsasd</div>
+        <div class="item">asdasdasdasdasdas sada d a as dasda adsasdasd asd asdasdasda</div>
+        <div class="item">asdasdas dasdadsd</div>
+        <div class="item">asdasd sadasdasdd</div>
+        <div class="item">asdasdasd  dasdas</div>
+    </div>
+
+    <h3>Flex Start</h3>
+    <div class="container flex-start">
+        <div class="item">dfg dfgdfkkkkklkkkk fgdadsdaf</div>
+        <div class="item">ASDasd asdkasdkjasd as </div>
+        <div class="item">Adasdasd asd asd asd asdadsasd</div>
+        <div class="item">asdasdasdasdasdas sada d a as dasda adsasdasd asd asdasdasda</div>
+        <div class="item">asdasdas dasdadsd</div>
+        <div class="item">asdasd sadasdasdd</div>
+        <div class="item">asdasdasd  dasdas</div>
+    </div>
+
+    <h3>Flex End</h3>
+    <div class="container flex-end">
+        <div class="item">dfg dfgdfkkkkklkkkk fgdadsdaf</div>
+        <div class="item">ASDasd asdkasdkjasd as </div>
+        <div class="item">Adasdasd asd asd asd asdadsasd</div>
+        <div class="item">asdasdasdasdasdas sada d a as dasda adsasdasd asd asdasdasda</div>
+        <div class="item">asdasdas dasdadsd</div>
+        <div class="item">asdasd sadasdasdd</div>
+        <div class="item">asdasdasd  dasdas</div>
+    </div>
+
+    <h3>Space Around</h3>
+    <div class="container space-around">
+        <div class="item">dfg dfgdfkkkkklkkkk fgdadsdaf</div>
+        <div class="item">ASDasd asdkasdkjasd as </div>
+        <div class="item">Adasdasd asd asd asd asdadsasd</div>
+        <div class="item">asdasdasdasdasdas sada d a as dasda adsasdasd asd asdasdasda</div>
+        <div class="item">asdasdas dasdadsd</div>
+        <div class="item">asdasd sadasdasdd</div>
+        <div class="item">asdasdasd  dasdas</div>
+    </div>
+
+    <h3>Space Between</h3>
+    <div class="container space-between">
+        <div class="item">dfg dfgdfkkkkklkkkk fgdadsdaf</div>
+        <div class="item">ASDasd asdkasdkjasd as </div>
+        <div class="item">Adasdasd asd asd asd asdadsasd</div>
+        <div class="item">asdasdasdasdasdas sada d a as dasda adsasdasd asd asdasdasda</div>
+        <div class="item">asdasdas dasdadsd</div>
+        <div class="item">asdasd sadasdasdd</div>
+        <div class="item">asdasdasd  dasdas</div>
+    </div>
+</body>
+</html>

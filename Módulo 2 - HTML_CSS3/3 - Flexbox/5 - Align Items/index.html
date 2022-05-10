@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align items</title>
+
+
+    <style>
+
+        header {
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+        }
+
+        .section {
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item {
+            background: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center {
+            align-items: center;
+        }
+
+        .stretch {
+            align-items: stretch;
+        }
+
+        .flex-start {
+            align-items: flex-start;
+        }
+
+        .flex-end {
+            align-items: flex-end;
+        }
+
+        .baseline {
+            align-items: baseline;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+      <h1>Align Items</h1>
+    </header>
+
+
+    <main>
+        <div class="section">
+            <h2>Row</h2>
+        
+        <h3>Center</h3>
+        <section class="container center">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+    
+        <h3>Stretch</h3>
+        <section class="container stretch">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+    
+        <h3>Flex Start</h3>
+        <section class="container flex-start">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+    
+        <h3>Flex End</h3>
+        <section class="container flex-end">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+    
+        <h3>Baseline</h3>
+        <section class="container baseline">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum ipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+        
+    </div>
+
+    <div class="section">
+        <h2>Column</h2>
+
+        <h3>Center</h3>
+        <section class="container center column">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+    
+        <h3>Stretch</h3>
+        <section class="container stretch column">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+    
+        <h3>Flex Start</h3>
+        <section class="container flex-start column">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+    
+        <h3>Flex End</h3>
+        <section class="container flex-end column">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+    
+        <h3>Baseline</h3>
+        <section class="container baseline column">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum ipisicing elit.</div>
+            <div class="item">item 3</div>
+        </section>
+
+
+    </div>
+
+    </main>
+
+
+
+    
+   
+   
+    
+
+
+   
+</body>
+</html>
